@@ -36,6 +36,10 @@ public class AuthToken extends BasePersistable{
 		this.user = user;
 	}
 
+	public AuthToken(String uqid) {
+		this.uqid = uqid;
+	}
+
 	public String getUqid() {
 		return uqid;
 	}

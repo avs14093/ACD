@@ -56,18 +56,8 @@
 			<version>1.0.13</version>
 		</dependency>
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.0.13</version>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>3.2.5.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
 			<version>3.2.5.RELEASE</version>
 		</dependency>
 		<dependency>
@@ -135,10 +125,6 @@
 	<!-- <modules>...</modules> -->
 	<properties>
 		<jdk.version>1.7</jdk.version>
-		<jacoco.version>0.6.3.201306030806</jacoco.version>
-		<jacoco.ut.execution.data.file>${project.build.directory}/coverage-reports/jacoco-ut.exec
-		</jacoco.ut.execution.data.file>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<!-- Build Settings -->
@@ -273,7 +259,7 @@
 
 
 	<!-- More Project Information -->
-	<name>2013 POS 5AHIF 5BHIF</name>
+	<name>ACD</name>
 	<description>Software which allows apa_it to automatically calculate the costs of their customers.</description>
 	<developers>
 		<developer>

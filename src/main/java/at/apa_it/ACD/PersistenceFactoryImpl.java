@@ -4,11 +4,11 @@ import java.util.HashMap;
 
 import javax.persistence.EntityManager;
 
-import at.apa_it.ACD.repositoryJPA.AuthTokenJpaRepository;
-import at.apa_it.ACD.repositoryJPA.JpaRepository;
-import at.apa_it.ACD.repositoryJPA.PersistenceFactory;
-import at.apa_it.ACD.repositoryJPA.TenantJpaRepository;
-import at.apa_it.ACD.repositoryJPA.UserJpaRepository;
+import at.apa_it.ACD.repositoryjpa.AuthTokenJpaRepository;
+import at.apa_it.ACD.repositoryjpa.JpaRepository;
+import at.apa_it.ACD.repositoryjpa.PersistenceFactory;
+import at.apa_it.ACD.repositoryjpa.TenantJpaRepository;
+import at.apa_it.ACD.repositoryjpa.UserJpaRepository;
 
 /**
  * The factory for all repositories...

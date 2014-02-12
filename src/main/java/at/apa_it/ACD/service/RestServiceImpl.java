@@ -59,7 +59,6 @@ public class RestServiceImpl implements RestService
 			}
 
 			String responseString = response.getEntity(String.class);
-			
 			String tokenId = new JSONObject(responseString).getJSONObject("access").getJSONObject("token").getString("id");
 			String username = new JSONObject(responseString).getJSONObject("access").getJSONObject("user").getString("username");
 			logger.log(Level.INFO, "Token fethed: " + tokenId);

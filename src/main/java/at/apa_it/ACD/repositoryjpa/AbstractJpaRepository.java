@@ -1,4 +1,4 @@
-package at.apa_it.ACD.repositoryJPA;
+package at.apa_it.ACD.repositoryjpa;
 
 import java.util.List;
 
